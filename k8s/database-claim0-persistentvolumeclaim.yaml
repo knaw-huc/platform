@@ -6,7 +6,7 @@ metadata:
   name: database-claim1
   namespace: newsgac
 spec:
-  storageClassName: nutanix-volume
+  storageClassName: longhorn
   accessModes:
   - ReadWriteOnce
   resources:
